@@ -45,7 +45,7 @@ public class SchedulerClientStart {
             try {
                 Thread.sleep(1000);
             } catch (InterruptedException e) {
-                logger.error("fail");
+                e.printStackTrace();
             }
         });
         pool.shutdown();
